@@ -1,0 +1,172 @@
+body{background-color:#e4e3e1 !important; color: #7c7c7c !important;}
+.top_bar{background:#1a4798; color:#fff;}
+.social,.logs{float:right;}
+.header-img{background: url("../images/header-bg.png")  #fff no-repeat; }
+.logs{color:#999999; margin-top:30px;}
+.nav{background-color:#cccccc; }
+.nav-menu ul{list-style: none; margin:0px !important;}
+.nav-menu ul li{float:left; padding:5px 10px 5px 10px; text-decoration:none; }
+.nav-menu ul li a{text-decoration:none;  color:#1b1464;}
+.nav_border{border-right: solid 1px #fff; }
+.nav-menu ul li:hover {background-color:#1a4798; color:#fff;  }
+.nav-menu ul li a:hover {color:#fff;  }
+.white-top {
+	margin-bottom:10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.breadcrumbs{padding: 5px 0 10px 5px; background:#cccccc; color:#fff; margin-top:15px; }
+
+.slider{height:350px; width:1000px ;  }
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('../images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('../images/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+		
+		.jssora12l { top:150px !important;right:0px;width:30px;height:46px; float:left; }
+        .jssora12r{top:150px !important;right:0px;width:30px;height:46px; float:right;}
+		
+		#jssor_1{position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 350px; overflow: hidden; visibility: hidden;}
+
+
+
+
+.title{font-size:18px; background:#b3b3b3; padding: 5px 0 5px 30px; color:#1a4798; }
+.title2{font-size:18px; background:#1a4798; padding: 5px 0 5px 30px; color:#ffffff; margin-bottom: 0px;}
+.title3{font-weight:700; text-decoration: none; font-family: Tahoma , sans-serif; text-transform:uppercase;
+    font-size: 20px; color:#1a4798; border-bottom: solid 1px #f9f9f9; padding-bottom:10px;}
+.text-home{text-align:justify;}
+
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }   
+
+	.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.body-home{background:url("../images/sarima_bg.jpg"); }
+.body-home2{background:#fff; margin-bottom:20px;}
+
+.shadow {
+    box-shadow: 0px 0px 0px 1px rgba(30, 49, 62, 0.11), 0px 0px 25px rgba(0, 49, 62, 0.11);
+    background: #ffffff;
+}
+
+.nav-sidebar ul{list-style:none; margin:0; padding:0px;}
+.nav-sidebar ul li{padding:5px 0 5px 10px; border-bottom: dashed 1px #fff; background:#f2f2f2; color:#1a4798;}
+.nav-sidebar ul li a{color:#1a4798;}
+.nav-sidebar ul li:hover {background:#fcfcfc;}
+.user_reviews{border-radius:5px; border:solid 1px #e0e0e0; float:left; width:100%; margin-bottom:10px; padding:5px;}
+.social-icons{margin-top:10px; background:#f4f4f4; padding: 5px 0 5px 20px;}
+.social-icons img {padding:0 2px 0 2px }
+
+.newstab{margin-bottom:15px; padding:0 10px 10px 0px; float: left; }
+.footer_bottom{background:#1a4798; color:#fff;}
+.nav-footer{margin: 0 auto 0 auto; width:100%; float: left;     padding-left: 15%;}
+.nav-footer ul{list-style: none;}
+.nav-footer ul li{float:left; padding:10px 15px 0px 15px; }
+.nav-footer ul li a{text-decoration:none; }
+.footer-text{float:left; width:100%; margin:10px auto 5px auto;  padding-left: 40%;}
+
+
